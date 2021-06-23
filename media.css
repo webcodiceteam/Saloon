@@ -1,0 +1,82 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(0, 105, 139);
+  }
+  .fa.fa-calendar {
+    display: none;
+  }
+
+  .fa.fa-phone {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+  .fa.fa-calendar {
+    display: none;
+  }
+
+  .fa.fa-phone {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgb(0, 9, 12);
+  }
+
+  .fa.fa-calendar {
+    display: none;
+  }
+
+  .fa.fa-phone {
+    display: none;
+  }
+  h1.header_text {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto";
+    margin-top: 13px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: rgb(0, 9, 12);
+  }
+
+  .fa.fa-calendar {
+    display: none;
+  }
+
+  .fa.fa-phone {
+    display: none;
+  }
+  h1.header_text {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto";
+    margin-top: 13px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  h1.header_text {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Roboto";
+    margin-top: 13px;
+  }
+
+  .fa.fa-calendar {
+    display: none;
+  }
+
+  .fa.fa-phone {
+    display: none;
+  }
+}
