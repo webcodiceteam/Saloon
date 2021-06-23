@@ -134,6 +134,9 @@ p.thirds_para {
   font-family: "Roboto";
   font-weight: 600;
   color: #60a5a5;
+  text-align: initial;
+  margin-top: 12px;
+  margin-left: 15px;
 }
 
 p.section_4_2 {
@@ -213,4 +216,20 @@ p.testimonial_para {
   font-family: "Roboto";
   color: #ffffff;
   font-size: 20px;
+}
+
+a.w3-bar-item.w3-button {
+}
+a.w3-bar-item.w3-button:hover {
+  background-color: #60a5a5 !important;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  color: white;
+}
+
+button.w3-bar-item.w3-button.w3-large {
+}
+button.w3-bar-item.w3-button.w3-large:hover {
+  background-color: #60a5a5 !important;
 }

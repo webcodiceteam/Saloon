@@ -32,12 +32,17 @@
 
     <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
         <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+        <a href="#" onclick="closeLeftMenu()" class="w3-bar-item w3-button">HOME</a>
+        <a href="#about" onclick="closeLeftMenu()" class="w3-bar-item w3-button">ABOUT US</a>
+        <a href="#gallery" onclick="closeLeftMenu()" class="w3-bar-item w3-button">GALLERY</a>
+        <a href="#service" onclick="closeLeftMenu()" class="w3-bar-item w3-button">SERVICES</a>
+        <a href="#testimonial1" onclick="closeLeftMenu()" class="w3-bar-item w3-button">TESTIMONIAL</a>
+        <a href="#contact" onclick="closeLeftMenu()" class="w3-bar-item w3-button">CONTACT US</a>
     </div>
 
-    <div style="background-color: #ffffff; height: 52px;">
+    <div style="background-color: #ffffff; position: fixed; top: 0;
+    width: 100%;    z-index: 999;
+ height: 52px;">
         <div class="col-lg-1 col-sm-2">
             <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
 
@@ -144,183 +149,194 @@
     </div> -->
 
     <!-- End of the slider section -->
+    <div id="about">
+        <!-- Third Section -->
+        <div style="height: 10px;">
 
-    <!-- Third Section -->
-    <div style="height: 10px;">
+        </div>
+        <div class="container-fluid" style="padding:0px">
+            <div class="row">
 
-    </div>
-    <div class="container-fluid" style="padding:0px">
-        <div class="row">
-
-            <div class="col-lg-6 col-md-6 col-sm-6 ">
-
-
-                <img src="./images/camille-brodard-VxAwTeiqDao-unsplash.jpg" class="img-responsive" height="500"
-                    width="600">
-            </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 ">
 
 
-            <div class="col-lg-6 col-md-6 col-sm-6 ">
-                <div style="height: 20px;">
-
+                    <img src="./images/camille-brodard-VxAwTeiqDao-unsplash.jpg" class="img-responsive" height="500"
+                        width="600">
                 </div>
 
-                <h1 class="thirds_about_us">ABOUT US</h1>
-                <p class="thirds_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-                    a galley of type and scrambled it to make a type specimen book. It has survived not only five
-                    centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                    popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
-                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-                    Ipsum.</p>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 ">
+                    <div style="height: 20px;">
+
+                    </div>
+
+                    <h1 class="thirds_about_us">ABOUT US</h1>
+                    <p class="thirds_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                        took
+                        a galley of type and scrambled it to make a type specimen book. It has survived not only five
+                        centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It
+                        was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                        and
+                        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                        Ipsum.</p>
+                </div>
+
             </div>
 
         </div>
 
     </div>
 
-
-
-
+    <div style="clear: both;"></div>
     <!-- End Third Section -->
 
-    <div style="height: 10px;">
+    <section id="gallery">
 
-    </div>
-
-    <!-- Gallery Section -->
-    <div class="gallery">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-            <h1 class="gallery_heading">GALLERY</h1>
-        </div>
         <div style="height: 10px;">
 
         </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img src="./images/alan-caishan-cU53ZFBr3lk-unsplash.jpg" class="img-responsive" width="100%" style="
+        <!-- Gallery Section -->
+        <div class="gallery">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h1 class="gallery_heading">GALLERY</h1>
+            </div>
+            <div style="height: 10px;">
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="./images/alan-caishan-cU53ZFBr3lk-unsplash.jpg" class="img-responsive" width="100%" style="
             height: 491px;
         ">
 
-        </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
-            <img src="./images/raphael-lovaski-Pe9IXUuC6QU-unsplash.jpg" class="img-responsive" width="100%"
-                style="padding: 10px  10px 10px 10px;height: 250px;">
-            <img src="./images/raphael-lovaski-Pe9IXUuC6QU-unsplash.jpg" class="img-responsive" width="100%"
-                style="padding: 0px  10px 10px 10px;height: 250px;">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src="./images/raphael-lovaski-Pe9IXUuC6QU-unsplash.jpg" class="img-responsive" width="100%"
+                    style="padding: 10px  10px 10px 10px;height: 250px;">
+                <img src="./images/raphael-lovaski-Pe9IXUuC6QU-unsplash.jpg" class="img-responsive" width="100%"
+                    style="padding: 0px  10px 10px 10px;height: 250px;">
 
+            </div>
         </div>
-    </div>
-    <!-- End of Gallery Section -->
-
+        <!-- End of Gallery Section -->
+    </section>
 
     <!-- Services Section -->
 
-    <div class="col-lg-12 col-md-12 col-sm-12" style="
-    margin-top: 20px;
-">
-        <h1 class="services_heading">OUR SERVICES</h1>
-    </div>
+    <div style="clear: both;"></div>
 
-    <div class="col-lg-4 col-md-4 col-sm-12">
+    <section id="service">
+        <div class="col-lg-12 col-md-12 col-sm-12" style="
+        margin-top: 20px;">
+            <h1 class="services_heading">OUR SERVICES</h1>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 " style="text-align: center;">
 
-        <img src='./images/adam-winger-FkAZqQJTbXM-unsplash.jpg' class="img-responsive" height="300" width="100%">
-        <p class="section_4_1">EYE SHAPE AND TIND COMBO<spam style="float: right;">NZ $19</spam>
-        <p class="section_4_2">INCLUDE EYE BROW WITH WAX PLUS TNT</p>
-        <button class="section_4_3">MAKE APPOINTMENT</button>
+            <img src='./images/adam-winger-FkAZqQJTbXM-unsplash.jpg' class="img-responsive" height="300" width="100%">
+            <p class="section_4_1">EYE SHAPE AND TIND COMBO<spam style="float: right; margin-right: 15px;">NZ $19</spam>
+            <p class="section_4_2">INCLUDE EYE BROW WITH WAX PLUS TNT</p>
+            <button class="section_4_3">MAKE APPOINTMENT</button>
 
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;">
 
-        <img src='./images/adam-winger-FkAZqQJTbXM-unsplash.jpg' class="img-responsive" height="300" width="100%">
-        <p class="section_4_1">EYE SHAPE AND TIND COMBO<spam style="float: right;">NZ $19</spam>
-        <p class="section_4_2">INCLUDE EYE BROW WITH WAX PLUS TNT</p>
-        <button class="section_4_3">MAKE APPOINTMENT</button>
+            <img src='./images/adam-winger-FkAZqQJTbXM-unsplash.jpg' class="img-responsive" height="300" width="100%">
+            <p class="section_4_1">EYE SHAPE AND TIND COMBO<spam style="float: right; margin-right: 15px;">NZ $19</spam>
+            <p class="section_4_2">INCLUDE EYE BROW WITH WAX PLUS TNT</p>
+            <button class="section_4_3">MAKE APPOINTMENT</button>
 
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12" style="text-align: center;">
 
-        <img src='./images/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg' class="img-responsive" height="300" width="100%">
-        <p class="section_4_1">EYE SHAPE AND TIND COMBO<spam style="float: right;">NZ $19</spam>
-        <p class="section_4_2">INCLUDE EYE BROW WITH WAX PLUS TNT</p>
-        <button class="section_4_3">MAKE APPOINTMENT</button>
+            <img src='./images/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg' class="img-responsive" height="300" width="100%">
+            <p class="section_4_1">EYE SHAPE AND TIND COMBO<spam style="float: right; margin-right: 15px;">NZ $19</spam>
+            <p class="section_4_2">INCLUDE EYE BROW WITH WAX PLUS TNT</p>
+            <button class="section_4_3">MAKE APPOINTMENT</button>
 
-    </div>
+        </div>
 
-
-
+    </section>
+    <div style="clear: both;"></div>
     <!-- Endf of Services Section -->
 
 
-    <!-- Testimonial -->
+    <section id="testimonial1">
+        <!-- Testimonial -->
 
-    <div class="col-lg-12 col-md-12 col-sm-12" style="
-    margin-top: 20px;
+        <div class="col-lg-12 col-md-12 col-sm-12" style="
+    margin-top: 25px;
 ">
-        <h1 class="services_heading">TESTIMONIAL</h1>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-12">
-
-        <img src='./images/Maddy_Kline_Testimonial_3-420x236.jpg' id="img_testimonial" class="img-responsive"
-            height="200" width="200">
-        <div style="text-align: center; margin-top: 20px;">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
+            <h1 class="services_heading">TESTIMONIAL</h1>
         </div>
 
-        <p class="testimonial_para">
-            I had a full body massage from Prabha, OMG I will definitely be back!! Great Pressure and the BEST head
-            massage.. Totally recommend. I am already on to booking in for my next one
-        </p>
-        <h1 class="ruhi">RUHI</h1>
+        <div class="col-lg-4 col-md-4 col-sm-12">
 
-    </div>
+            <img src='./images/Maddy_Kline_Testimonial_3-420x236.jpg' id="img_testimonial" class="img-responsive"
+                height="200" width="200">
+            <div style="text-align: center; margin-top: 20px;">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-12">
+            <p class="testimonial_para">
+                I had a full body massage from Prabha, OMG I will definitely be back!! Great Pressure and the BEST
+                head
+                massage.. Totally recommend. I am already on to booking in for my next one
+            </p>
+            <h1 class="ruhi">RUHI</h1>
 
-        <img src='./images/Maddy_Kline_Testimonial_3-420x236.jpg' id="img_testimonial" class="img-responsive"
-            height="200" width="200">
-        <div style="text-align: center; margin-top: 20px;">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
         </div>
 
-        <p class="testimonial_para">
-            I had a full body massage from Prabha, OMG I will definitely be back!! Great Pressure and the BEST head
-            massage.. Totally recommend. I am already on to booking in for my next one
-        </p>
-        <h1 class="ruhi">MEHAK</h1>
+        <div class="col-lg-4 col-md-4 col-sm-12">
 
-    </div>
-    <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src='./images/Maddy_Kline_Testimonial_3-420x236.jpg' id="img_testimonial" class="img-responsive"
+                height="200" width="200">
+            <div style="text-align: center; margin-top: 20px;">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
 
-        <img src='./images/Maddy_Kline_Testimonial_3-420x236.jpg' id="img_testimonial" class="img-responsive"
-            height="200" width="200">
-        <div style="text-align: center; margin-top: 20px;">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
+            <p class="testimonial_para">
+                I had a full body massage from Prabha, OMG I will definitely be back!! Great Pressure and the BEST
+                head
+                massage.. Totally recommend. I am already on to booking in for my next one
+            </p>
+            <h1 class="ruhi">MEHAK</h1>
+
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+
+            <img src='./images/Maddy_Kline_Testimonial_3-420x236.jpg' id="img_testimonial" class="img-responsive"
+                height="200" width="200">
+            <div style="text-align: center; margin-top: 20px;">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+
+            <p class="testimonial_para">
+                I had a full body massage from Prabha, OMG I will definitely be back!! Great Pressure and the BEST
+                head
+                massage.. Totally recommend. I am already on to booking in for my next one
+            </p>
+            <h1 class="ruhi">SHAGUN</h1>
+
         </div>
 
-        <p class="testimonial_para">
-            I had a full body massage from Prabha, OMG I will definitely be back!! Great Pressure and the BEST head
-            massage.. Totally recommend. I am already on to booking in for my next one
-        </p>
-        <h1 class="ruhi">SHAGUN</h1>
-
-    </div>
-
-
-
+    </section>
+    <div style="clear: both;"></div>
     <!-- End of Testimonialsection -->
 
     <!-- Contact US  -->
@@ -328,7 +344,7 @@
     <div class="col-lg-12 col-md-12 col-sm-12" style="
     margin-top: 20px;
 ">
-        <h1 class="services_heading">CONTACT US</h1>
+        <!-- <h1 class="services_heading">CONTACT US</h1> -->
     </div>
 
 
@@ -381,6 +397,7 @@
 
 
     <!-- End of Contact US -->
+
 
 
     <script>
